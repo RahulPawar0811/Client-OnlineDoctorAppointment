@@ -1,0 +1,16 @@
+// apiConfig.js
+import axios from 'axios';
+
+const API_BASE_URL = 'http://localhost:5000';
+const imageUrl = 'http://localhost:5000';
+
+// Create an axios instance with default config
+const api = axios.create({
+  baseURL: API_BASE_URL,
+  headers: {
+    'Content-Type': 'application/json',
+  },
+});
+
+export default api;
+export { imageUrl };

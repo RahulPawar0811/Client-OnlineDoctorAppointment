@@ -1,0 +1,133 @@
+/* DoctorSignUp.css */
+
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px 25px;
+    background: #f5f7ff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  .signup-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #2c3e50;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-form label {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  
+  .signup-form input[type="text"],
+  .signup-form input[type="email"],
+  .signup-form input[type="tel"],
+  .signup-form input[type="number"],
+  .signup-form input[type="file"] {
+    margin-top: 6px;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1.8px solid #a1a7b3;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .signup-form input[type="file"] {
+    padding: 4px 12px;
+  }
+  
+  .signup-form input:focus {
+    outline: none;
+    border-color: #5a67d8;
+    box-shadow: 0 0 5px rgba(90, 103, 216, 0.6);
+  }
+  
+  .submit-btn {
+    margin-top: 20px;
+    padding: 14px 0;
+    background: #5a67d8;
+    color: white;
+    font-weight: 700;
+    font-size: 1.15rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(90, 103, 216, 0.4);
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background: #434bb8;
+  }
+  
+  .login-redirect {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  
+  .login-redirect a {
+    color: #5a67d8;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .login-redirect a:hover {
+    color: #434bb8;
+    text-decoration: underline;
+  }
+  
+
+  .required {
+    color: red;
+    margin-left: 4px;
+    font-weight: bold;
+  }
+  
+  .custom-file-upload {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  
+  .custom-file-upload input[type="file"] {
+    margin-top: 8px;
+    padding: 10px;
+    background-color: #f0f4ff;
+    border: 2px dashed #a1a7b3;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .custom-file-upload input[type="file"]:hover {
+    border-color: #5a67d8;
+  }
+
+  
+  .signup-form input[type="password"] {
+    margin-top: 6px;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1.8px solid #a1a7b3;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  

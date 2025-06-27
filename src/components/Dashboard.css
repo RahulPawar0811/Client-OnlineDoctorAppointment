@@ -1,0 +1,61 @@
+/* HomePage.css */
+
+.homepage-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6b73ff 0%, #000dff 100%);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .homepage-heading {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .btn {
+    border: none;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  .patient-btn {
+    background-color: #ff6b6b;
+    box-shadow: 0 8px 15px rgba(255, 107, 107, 0.3);
+  }
+  
+  .patient-btn:hover {
+    background-color: #ff4c4c;
+    box-shadow: 0 12px 20px rgba(255, 76, 76, 0.5);
+    transform: translateY(-3px);
+  }
+  
+  .doctor-btn {
+    background-color: #1dd1a1;
+    box-shadow: 0 8px 15px rgba(29, 209, 161, 0.3);
+  }
+  
+  .doctor-btn:hover {
+    background-color: #12b886;
+    box-shadow: 0 12px 20px rgba(18, 184, 134, 0.5);
+    transform: translateY(-3px);
+  }
+  

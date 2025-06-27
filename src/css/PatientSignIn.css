@@ -1,0 +1,79 @@
+.patient-signin-container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px 25px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .patient-signin-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .patient-signin-form .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .patient-signin-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .patient-signin-form input {
+    width: 85%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .patient-signin-form input:focus {
+    border-color: #5661d6;
+    outline: none;
+  }
+  
+  .submit-btn {
+    width: 100%;
+    padding: 12px 0;
+    background-color: #5661d6;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #434cb8;
+  }
+  
+  .signup-redirect {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .signup-redirect a {
+    color: #5661d6;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .signup-redirect a:hover {
+    text-decoration: underline;
+  }
+  
+  .required {
+    color: red;
+  }
+  
